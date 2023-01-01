@@ -1,0 +1,7 @@
+All create methods and parse methods were not moved. They should stay in functions because each entity will
+have its own class in Project 3.
+
+In the file Action, executeSaplingActivity, executeTreeActivity, executeDudeNotFullActivity,executeDudeFullActivity,
+executeFairyActivity, have been moved to action because they are used by another function called executeActivityAction.
+Since their only purpose is to be used by this function they should belong to the same class as this function.
+
